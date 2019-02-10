@@ -1,3 +1,5 @@
+# Program of Rock-Paper-Scissors for two human players (p1 and p2).
+
 p1 = input("\nPlayer 1, make your move (case insensitive): ")
 p1 = p1.lower()
 # Convert user input in any case into lowercase so that if user enters an input containing uppercase letter(s) like
