@@ -1,10 +1,13 @@
+# Program of Rock-Paper-Scissors for human player and computer player.
+
 from random import randint
 # print("Rock...")
 # print("Paper...")
 # print("Scissors...")
 
+
 player = input("Player, make your move: ").lower()
-rand_num = randint(0,2)
+rand_num = randint(0, 2)
 if rand_num == 0:
 	computer = "rock"
 elif rand_num == 1:
@@ -12,7 +15,7 @@ elif rand_num == 1:
 else:
 	computer = "scissors"
 
-print(f"Computer plays {computer}" )
+print(f"The computer player plays {computer}" )
 
 if player == computer:
 	print("It's a tie!")
