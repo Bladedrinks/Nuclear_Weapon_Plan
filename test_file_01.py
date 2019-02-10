@@ -1,4 +1,6 @@
 # A user-defined function to insert the conjunction of " and " into a string.
+
+
 def insert_and_in(list_name):
     """Insert the conjunction of " and " into a string (usually between the penultimate word and the last word.
     For example, we got a list:
@@ -16,7 +18,6 @@ def insert_and_in(list_name):
     # index:                  -3  -2  -1
     # test case: list_name = [45]
     # index:                  -1
-
     for i in range(-len(list_name), 0):
         if i == -1:
             list_in_str += f"{list_name[i]}"
